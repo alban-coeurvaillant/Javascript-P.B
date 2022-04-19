@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>authentification.html</title>
+    <meta carset="UTF-8" />
+
+<!-- initial-scale=1.0 permet de rendre le viewport responsive -->
+    <meta name="viewport" content="width=device.width, , initial-scale=1.0" />
+
+<!-- Appel vers tailwind.css -->
+ <link rel="stylesheet" href="../css/authentification.css">
+  </head>
+
+  <body>
+    <div class="card ">
+      <h1>Authentification</h1>
+      <form>
+        <label for="pseudo">Pseudo :</label>
+        <input type="text" name="pseudo" id="pseudo" value="p" />
+        <label for="mdp">MDP : </label>
+        <input type="password" name="mdp" id="mdp" value="b" />
+        <input type="button" value="valider" name="btValider" id="btValider" />
+        <label id="lblMessage">Message</label>
+      </form>
+    </div>
+  </body>
+  <script src="../js/Authentification.js"></script>
+</html>
