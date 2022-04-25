@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>authentification.html</title>
+    <meta carset="UTF-8" />
+    <!-- initial-scale=1.0 permet de rendre le viewport responsive -->
+    <meta name="viewport" content="width=device.width, , initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/authentification.css">
+  </head>
+
+  <body>
+    <div class="card">
+      <h1>Authentification</h1>
+      <div>
+        <a href="" id="btnTradFr">Français</a>
+        <a href="" id="btnTradEn">Anglais</a>
+      </div>
+      <form>
+        <label for="pseudo">Pseudo :</label>
+        <input type="text" name="pseudo" id="pseudo" value="p" />
+        <label for="mdp">MDP : </label>
+        <input type="password" name="mdp" id="mdp" value="b" />
+        <div><input type="checkbox" id="showPassword" name="showPassword">
+        <label for="showPassword">Mot de passe visible</label>
+        </div>
+        <input type="button" value="valider" name="btValider" id="btValider" />
+        <label id="lblMessage">Message</label>
+      </form>
+    </div>
+  </body>
+  <script src="../js/Authentification.js"></script>
+</html>
